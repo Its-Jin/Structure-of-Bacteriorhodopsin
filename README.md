@@ -1,1 +1,1 @@
-# Structure-of-Bacteriorhodopsin-
+# Structure-of-Bacteriorhodopsin
