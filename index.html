@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Molecular Structure of Bacteriorhodospin</title>
+
+	    <!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.10/dist/css/uikit.min.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.10/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.10/dist/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+	<div class="protein">
+		<div class="Protein-Title">
+			<h1><span>The molecular structure of</span> bacteriorhdopsin</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus euismod volutpat.</p>
+		</div>
+		<div class="protein-display">
+			<div class="protein-display-image">
+				<ul class="uk-switcher">
+					<li>
+						<img src="images/surface.png" />
+						<div class="annotation" id="annotation-1">
+							<div uk-toggle="target: #annotation-1 .annotation-content; cls:show-annotation; mode:hover" class="annotation-button">
+							+
+							</div>
+
+							<div class="annotation-content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id sem mi. Sed euismod auctor hendrerit. </p>
+							</div>
+						</div>
+
+						<div class="annotation" id="annotation-2"> 
+							<! toggle target: annotation content within annotation-2>
+							<div uk-toggle="target:#annotation-2 .annotation-content;cls:show-annotation; mode:hover" class="annotation-button">
+							+
+							</div>
+
+							<div class="annotation-content">
+								<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nec diam commodo, interdum ante eget, sollicitudin leo. Nulla sed consectetur ligula, sit amet congue ligula.</p>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<img src="images/backbone.png"/>
+					</li>
+
+					<li>
+						<img src="images/retinal.png"/>
+					</li>
+				</ul>
+			</div>
+
+			<div class="protein-display-controls">
+				<ul uk-switcher="connect:.protein-display-image ul">
+					<li>
+						<button>
+							<span></span>
+							Molecular surface
+						</button>
+					</li>
+
+					<li>
+						<button>
+							<span></span>
+							Protein backbone
+						</button>
+					</li>
+
+					<li>
+						<button>
+							<span></span>
+							Ligands
+						</button>
+					</li>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

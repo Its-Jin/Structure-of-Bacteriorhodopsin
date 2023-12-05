@@ -2,7 +2,7 @@
 
 **Project Name**: Molecular Structure of Bacteriorhodopsin 
 
-**Purpose**: To turn a mockup into a functioning webpage 
+**Purpose**: To transform a mockup into a webpage 
 
 **Technology used**: HTML, CSS, UI-Kits
 
@@ -15,3 +15,6 @@
 
 
 **Acknowledgements** This project was created as an assignment for the HSC402H5: Digital Learning Environments in Biology and Health Science at the University of Toronto Mississauga. Source materials including the mock up was provided as course material. The HSC402 course focused on the "design, development and evaluation of digital learning environments for biology and health sciences education". 
+
+## Mockup Image of project
+![](mockup.jpg)
