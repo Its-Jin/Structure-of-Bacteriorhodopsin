@@ -23,6 +23,8 @@ body{
 	max-width: 900px; /* max width of item no matter how reader stretch the webpage-ie size capped at tht px*/
 	min-width: 500px;
 	margin:auto; /* centres the item - need flex on parent to auto centre top,bottom,left,right properly*/
+	padding-top: 50px;
+
 }
 
 .Protein-Title h1{
